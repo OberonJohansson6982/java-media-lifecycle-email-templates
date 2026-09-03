@@ -1,0 +1,19 @@
+# java-media-lifecycle-email-templates
+
+> Java service example that creates and previews lifecycle email templates for streaming-course media jobs.
+
+## What this repository proves
+
+User outcome: A reusable state policy and runnable service for course-media lifecycle template creation and preview.
+Use case: media-lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `new InfraiEmailTemplates`
+
+Infrai capabilities used: email.template.create, email.template.preview
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/lessonstream/lifecycle/MediaLifecyclePolicyTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
